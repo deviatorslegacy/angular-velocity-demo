@@ -1,0 +1,27 @@
+{
+  "name": "angular-velocity-demo",
+  "version": "1.0.0",
+  "description": "Particle system using angular velocity.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deviatorslegacy/angular-velocity-demo.git"
+  },
+  "keywords": [
+    "physics",
+    "particles",
+    "angular-velocity"
+  ],
+  "author": "DeviatorsLegacy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deviatorslegacy/angular-velocity-demo/issues"
+  },
+  "homepage": "https://github.com/deviatorslegacy/angular-velocity-demo#readme",
+  "dependencies": {
+    "vite": "^2.9.1"
+  }
+}
