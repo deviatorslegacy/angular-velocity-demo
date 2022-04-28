@@ -3,6 +3,9 @@ import Particle from './Particle.js';
 const canvas = document.querySelector('canvas');
 const context = canvas.getContext('2d');
 
+canvas.width = canvas.offsetWidth;
+canvas.height = canvas.offsetHeight;
+
 const game = {
     particles: [],
     timeElapsed: 0,
@@ -14,7 +17,7 @@ function main() {
     canvas.style.backgroundColor = '#934';
 
     const margin = 5;
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 200; i++) {
         const x = Math.random() * (canvas.width - margin*2) + margin;
         const y = Math.random() * (canvas.height - margin*2) + margin;
         const radius = Math.random()*10 + 5;
